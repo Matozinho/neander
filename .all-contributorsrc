@@ -14,6 +14,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "Matozinho",
+      "name": "Felipi Lima Matozinho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50120388?v=4",
+      "profile": "https://github.com/Matozinho",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
