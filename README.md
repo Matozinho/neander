@@ -24,6 +24,11 @@
   1.3. <a href="#MEM">Memory</a><br>
 2. <a href="Adaptions">Adaptions</a><br>
   2.1. <a href="JN and JZ">JN and JZ</a><br>
+3. <a href="Implementation">Implementation</a><br>
+  3.1. <a href="#Requirements">Requirements</a><br>
+  3.2. <a href="#Instalation">Instalation</a><br>
+  3.3. <a href="#Run">Run</a><br>
+  3.4. <a href="#Structure">Structure</a><br>
 
 ## Components
 
@@ -74,3 +79,124 @@ The Control Unit is responsible for handling all the instructions related logic,
 ### JN and JZ
 
 As no documentation on how to implent the jumps `JN` (Jump if Negative) and `JZ` (Jump if Zero) was provided we decided to adapt it using a MUX2x11 that when the selector is `'1'` the output is equivalent of a normal `JMP` otherwise the output will be equivalent as a `NOP`. 
+
+## Implementation
+
+As we had and ally, or as we call a god's gift, called Pablo we manage to come up and turn a masive one root folder structure to a `well delightful syntatic-tree design`.
+
+Anyone with `make` can easily run as follows
+
+### Requirements
+
+You will have to have installed the following programs `(git|gh-cli) ghdl gtkwave make`
+
+### Instalation
+
+```zsh
+gh repo clone Matozinho/neander
+```
+
+or
+
+```zsh
+git clone git@github.com:Matozinho/neander.git
+```
+
+or if you are old as a NEANDER itself
+
+```zsh
+git clone https://github.com/Matozinho/neander.git
+```
+
+### Run
+
+```zsh
+cd neander
+make clean # just as good practice 😉
+make       # Will compile
+make run STOPTIME=(stop time needed) MEM=(memfile)
+make view  # Will open GTKWave
+```
+
+### Structure
+
+```zsh
+.
+├── assets
+│   ├── mem
+│   │   ├── 1neanderram.mem
+│   │   ├── 2neanderram.mem
+│   │   ├── 3neanderram.mem
+│   │   ├── 4neanderram.mem
+│   │   ├── 5neanderram.mem
+│   │   ├── 6neanderram.mem
+│   │   ├── 7neanderram.mem
+│   │   ├── 8_JZneanderram.mem
+│   │   ├── 9neanderram.mem
+│   │   └── neanderram.mem
+│   ├── neander.gtkw
+│   └── waves
+│       └── tb_neander.ghw
+├── Makefile
+├── neanderram.mem
+├── README.md
+└── src
+    └── neander
+        ├── components
+        │   ├── alu
+        │   │   ├── alu.vhdl
+        │   │   ├── components
+        │   │   │   ├── ac.vhdl
+        │   │   │   ├── alu_mux.vhdl
+        │   │   │   ├── core.vhdl
+        │   │   │   ├── fadder_8.vhdl
+        │   │   │   ├── fadder.vhdl
+        │   │   │   └── flags.vhdl
+        │   │   └── testbench
+        │   │       └── tb_alu.vhdl
+        │   ├── cu
+        │   │   ├── components
+        │   │   │   ├── cicles
+        │   │   │   │   ├── add_cicle.vhdl
+        │   │   │   │   ├── and_cicle.vhdl
+        │   │   │   │   ├── hlt_cicle.vhdl
+        │   │   │   │   ├── jmp_cicle.vhdl
+        │   │   │   │   ├── jn_cicle.vhdl
+        │   │   │   │   ├── jz_cicle.vhdl
+        │   │   │   │   ├── lda_cicle.vhdl
+        │   │   │   │   ├── nop_cicle.vhdl
+        │   │   │   │   ├── not_cicle.vhdl
+        │   │   │   │   ├── or_cicle.vhdl
+        │   │   │   │   └── sta_cicle.vhdl
+        │   │   │   ├── control_ffjk7.vhdl
+        │   │   │   ├── count07.vhdl
+        │   │   │   ├── decoder.vhdl
+        │   │   │   ├── ir.vhdl
+        │   │   │   └── uc_core.vhdl
+        │   │   ├── cu.vhdl
+        │   │   └── testbench
+        │   ├── ffjktd.vhdl
+        │   ├── mem
+        │   │   ├── components
+        │   │   │   ├── as_ram.vhdl
+        │   │   │   ├── mar.vhdl
+        │   │   │   ├── mdr.vhdl
+        │   │   │   ├── mem_mux.vhdl
+        │   │   │   └── neanderram.mem
+        │   │   ├── mem.vhdl
+        │   │   └── testbench
+        │   └── pc
+        │       ├── components
+        │       │   ├── pc_mux.vhdl
+        │       │   └── rip.vhdl
+        │       └── pc.vhdl
+        ├── neander.vhdl
+        └── testbench
+            ├── tb_neander.ghw
+            ├── tb_neander.gtkw
+            ├── tb_neander.vhdl
+            ├── tb_ula_mem.ghw
+            └── tb_ula_mem.vhdl
+
+19 directories, 56 files
+```
