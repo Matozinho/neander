@@ -1,6 +1,6 @@
 # <h1 align="center">NEANDER</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <div align="center">
@@ -225,6 +225,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Daniel-Boll"><img src="https://avatars.githubusercontent.com/u/43689101?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Boll</b></sub></a><br /><a href="https://github.com/Matozinho/neander/commits?author=Daniel-Boll" title="Code">💻</a> <a href="https://github.com/Matozinho/neander/commits?author=Daniel-Boll" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Matozinho"><img src="https://avatars.githubusercontent.com/u/50120388?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Felipi Lima Matozinho</b></sub></a><br /><a href="https://github.com/Matozinho/neander/commits?author=Matozinho" title="Code">💻</a> <a href="https://github.com/Matozinho/neander/commits?author=Matozinho" title="Documentation">📖</a></td>
   </tr>
 </table>
 
