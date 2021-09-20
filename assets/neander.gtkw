@@ -1,0 +1,89 @@
+[*]
+[*] GTKWave Analyzer v3.3.109 (w)1999-2020 BSI
+[*] Mon Sep 20 00:52:12 2021
+[*]
+[dumpfile] "/home/matozinho/Documentos/Unioeste/EAD_2021/SD/neander/FINAL_NEANDER/neander/assets/waves/tb_neander.ghw"
+[dumpfile_mtime] "Mon Sep 20 00:49:45 2021"
+[dumpfile_size] 33401
+[savefile] "/home/matozinho/Documentos/Unioeste/EAD_2021/SD/neander/FINAL_NEANDER/neander/assets/neander.gtkw"
+[timestart] 0
+[size] 1920 1008
+[pos] -1 -1
+*-28.246588 196000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_neander.
+[treeopen] top.tb_neander.u_neander.
+[treeopen] top.tb_neander.u_neander.u_mem.
+[treeopen] top.tb_neander.u_neander.u_mem.u_ram.
+[treeopen] top.tb_neander.u_neander.u_mem.u_ram.ram.
+[treeopen] top.tb_neander.u_neander.u_uc.u_decoder.
+[sst_width] 236
+[signals_width] 381
+[sst_expanded] 1
+[sst_vpaned_height] 287
+@28
+top.tb_neander.u_neander.clk
+@200
+-
+-memória
+@24
+#{top.tb_neander.u_neander.u_mem.u_ram.ram[128][7:0]} top.tb_neander.u_neander.u_mem.u_ram.ram[128][7] top.tb_neander.u_neander.u_mem.u_ram.ram[128][6] top.tb_neander.u_neander.u_mem.u_ram.ram[128][5] top.tb_neander.u_neander.u_mem.u_ram.ram[128][4] top.tb_neander.u_neander.u_mem.u_ram.ram[128][3] top.tb_neander.u_neander.u_mem.u_ram.ram[128][2] top.tb_neander.u_neander.u_mem.u_ram.ram[128][1] top.tb_neander.u_neander.u_mem.u_ram.ram[128][0]
+#{top.tb_neander.u_neander.u_mem.u_ram.ram[129][7:0]} top.tb_neander.u_neander.u_mem.u_ram.ram[129][7] top.tb_neander.u_neander.u_mem.u_ram.ram[129][6] top.tb_neander.u_neander.u_mem.u_ram.ram[129][5] top.tb_neander.u_neander.u_mem.u_ram.ram[129][4] top.tb_neander.u_neander.u_mem.u_ram.ram[129][3] top.tb_neander.u_neander.u_mem.u_ram.ram[129][2] top.tb_neander.u_neander.u_mem.u_ram.ram[129][1] top.tb_neander.u_neander.u_mem.u_ram.ram[129][0]
+#{top.tb_neander.u_neander.u_mem.u_ram.ram[130][7:0]} top.tb_neander.u_neander.u_mem.u_ram.ram[130][7] top.tb_neander.u_neander.u_mem.u_ram.ram[130][6] top.tb_neander.u_neander.u_mem.u_ram.ram[130][5] top.tb_neander.u_neander.u_mem.u_ram.ram[130][4] top.tb_neander.u_neander.u_mem.u_ram.ram[130][3] top.tb_neander.u_neander.u_mem.u_ram.ram[130][2] top.tb_neander.u_neander.u_mem.u_ram.ram[130][1] top.tb_neander.u_neander.u_mem.u_ram.ram[130][0]
+#{top.tb_neander.u_neander.u_mem.u_ram.ram[131][7:0]} top.tb_neander.u_neander.u_mem.u_ram.ram[131][7] top.tb_neander.u_neander.u_mem.u_ram.ram[131][6] top.tb_neander.u_neander.u_mem.u_ram.ram[131][5] top.tb_neander.u_neander.u_mem.u_ram.ram[131][4] top.tb_neander.u_neander.u_mem.u_ram.ram[131][3] top.tb_neander.u_neander.u_mem.u_ram.ram[131][2] top.tb_neander.u_neander.u_mem.u_ram.ram[131][1] top.tb_neander.u_neander.u_mem.u_ram.ram[131][0]
+@25
+#{top.tb_neander.u_neander.u_mem.u_ram.ram[132][7:0]} top.tb_neander.u_neander.u_mem.u_ram.ram[132][7] top.tb_neander.u_neander.u_mem.u_ram.ram[132][6] top.tb_neander.u_neander.u_mem.u_ram.ram[132][5] top.tb_neander.u_neander.u_mem.u_ram.ram[132][4] top.tb_neander.u_neander.u_mem.u_ram.ram[132][3] top.tb_neander.u_neander.u_mem.u_ram.ram[132][2] top.tb_neander.u_neander.u_mem.u_ram.ram[132][1] top.tb_neander.u_neander.u_mem.u_ram.ram[132][0]
+@200
+-
+-decoder
+@28
+#{top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[10:0]} top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[10] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[9] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[8] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[7] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[6] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[5] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[4] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[3] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[2] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[1] top.tb_neander.u_neander.u_uc.u_decoder.instruction_out[0]
+@200
+-
+-barramentos
+-dados
+@24
+#{top.tb_neander.u_neander.s_data_bus[7:0]} top.tb_neander.u_neander.s_data_bus[7] top.tb_neander.u_neander.s_data_bus[6] top.tb_neander.u_neander.s_data_bus[5] top.tb_neander.u_neander.s_data_bus[4] top.tb_neander.u_neander.s_data_bus[3] top.tb_neander.u_neander.s_data_bus[2] top.tb_neander.u_neander.s_data_bus[1] top.tb_neander.u_neander.s_data_bus[0]
+@200
+-
+-controle
+@28
+#{top.tb_neander.u_neander.s_control_bus[10:0]} top.tb_neander.u_neander.s_control_bus[10] top.tb_neander.u_neander.s_control_bus[9] top.tb_neander.u_neander.s_control_bus[8] top.tb_neander.u_neander.s_control_bus[7] top.tb_neander.u_neander.s_control_bus[6] top.tb_neander.u_neander.s_control_bus[5] top.tb_neander.u_neander.s_control_bus[4] top.tb_neander.u_neander.s_control_bus[3] top.tb_neander.u_neander.s_control_bus[2] top.tb_neander.u_neander.s_control_bus[1] top.tb_neander.u_neander.s_control_bus[0]
+@200
+-
+-ULA OP
+@28
+#{top.tb_neander.u_neander.u_alu.alu_op[2:0]} top.tb_neander.u_neander.u_alu.alu_op[2] top.tb_neander.u_neander.u_alu.alu_op[1] top.tb_neander.u_neander.u_alu.alu_op[0]
+@200
+-
+-registradores
+-AC
+@24
+#{top.tb_neander.u_neander.u_alu.u_ac.dout[7:0]} top.tb_neander.u_neander.u_alu.u_ac.dout[7] top.tb_neander.u_neander.u_alu.u_ac.dout[6] top.tb_neander.u_neander.u_alu.u_ac.dout[5] top.tb_neander.u_neander.u_alu.u_ac.dout[4] top.tb_neander.u_neander.u_alu.u_ac.dout[3] top.tb_neander.u_neander.u_alu.u_ac.dout[2] top.tb_neander.u_neander.u_alu.u_ac.dout[1] top.tb_neander.u_neander.u_alu.u_ac.dout[0]
+@200
+-
+-FLAGS
+@28
+#{top.tb_neander.u_neander.u_alu.u_flags.dout[1:0]} top.tb_neander.u_neander.u_alu.u_flags.dout[1] top.tb_neander.u_neander.u_alu.u_flags.dout[0]
+@200
+-
+-REM
+@24
+#{top.tb_neander.u_neander.u_mem.u_mar.dout[7:0]} top.tb_neander.u_neander.u_mem.u_mar.dout[7] top.tb_neander.u_neander.u_mem.u_mar.dout[6] top.tb_neander.u_neander.u_mem.u_mar.dout[5] top.tb_neander.u_neander.u_mem.u_mar.dout[4] top.tb_neander.u_neander.u_mem.u_mar.dout[3] top.tb_neander.u_neander.u_mem.u_mar.dout[2] top.tb_neander.u_neander.u_mem.u_mar.dout[1] top.tb_neander.u_neander.u_mem.u_mar.dout[0]
+@200
+-
+-RDM
+@24
+#{top.tb_neander.u_neander.u_mem.u_mdr.dout[7:0]} top.tb_neander.u_neander.u_mem.u_mdr.dout[7] top.tb_neander.u_neander.u_mem.u_mdr.dout[6] top.tb_neander.u_neander.u_mem.u_mdr.dout[5] top.tb_neander.u_neander.u_mem.u_mdr.dout[4] top.tb_neander.u_neander.u_mem.u_mdr.dout[3] top.tb_neander.u_neander.u_mem.u_mdr.dout[2] top.tb_neander.u_neander.u_mem.u_mdr.dout[1] top.tb_neander.u_neander.u_mem.u_mdr.dout[0]
+@200
+-
+-PC
+@24
+#{top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[7:0]} top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[7] top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[6] top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[5] top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[4] top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[3] top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[2] top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[1] top.tb_neander.u_neander.u_uc.u_pc.u_pc.dout[0]
+@200
+-
+-RI
+@24
+#{top.tb_neander.u_neander.u_uc.u_ir.dout[7:0]} top.tb_neander.u_neander.u_uc.u_ir.dout[7] top.tb_neander.u_neander.u_uc.u_ir.dout[6] top.tb_neander.u_neander.u_uc.u_ir.dout[5] top.tb_neander.u_neander.u_uc.u_ir.dout[4] top.tb_neander.u_neander.u_uc.u_ir.dout[3] top.tb_neander.u_neander.u_uc.u_ir.dout[2] top.tb_neander.u_neander.u_uc.u_ir.dout[1] top.tb_neander.u_neander.u_uc.u_ir.dout[0]
+[pattern_trace] 1
+[pattern_trace] 0
