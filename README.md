@@ -1,8 +1,19 @@
 # <h1 align="center">NEANDER</h1>
 
+<div align="center">
+	<a href="Components">Components</a>
+  <span> • </span>
+  <a href="Adaptations">Adaptions</a>
+  <span> • </span>
+  <a href="Implementation">Implementation</a>
+  <p></p>
+</div>
+
 > Project developed for the class of Digital System lectured by @Edmar-Bellorini by the students @Daniel-Boll @Felipi-Matozinho @Pablo-Hugen which compose the super team BDT (CFDT).
 
 ---
+
+
 
 <div>
   <img align="right" src="https://github.com/Matozinho/neander/blob/main/images/NEANDER_logo.png" width=240>
@@ -22,7 +33,7 @@
   1.1. <a href="#ALU">Arithmetic Logic Unit</a><br>
   1.2. <a href="#CU">Control Unit</a><br>
   1.3. <a href="#MEM">Memory</a><br>
-2. <a href="Adaptions">Adaptions</a><br>
+2. <a href="Adaptations">Adaptations</a><br>
   2.1. <a href="JN and JZ">JN and JZ</a><br>
 3. <a href="Implementation">Implementation</a><br>
   3.1. <a href="#Requirements">Requirements</a><br>
