@@ -24,6 +24,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "Tomcat-42",
+      "name": "Pablo Alessandro Santos Hugen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44649669?v=4",
+      "profile": "https://github.com/Tomcat-42",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
